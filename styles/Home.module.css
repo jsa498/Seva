@@ -123,6 +123,37 @@
   border-radius: 5px;
 }
 
+.notesBtn {
+  background-color: #2196F3;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.notesContainer {
+  width: 100%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px;
+  margin-top: 10px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.notesContent {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  white-space: pre-line;
+}
+
 .navigation {
   display: flex;
   justify-content: center;
